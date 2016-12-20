@@ -1,2 +1,5 @@
 [project]
 name = namespace
+
+[packages]
+lektor-webpack-support = 0.3
