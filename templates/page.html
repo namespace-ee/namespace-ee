@@ -1,8 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}Namespace OÜ{% endblock %}
 
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+  <div class="container">
+    <div class="row flex-items-xs-middle">
+      <div class="col-xs">
+        <img src="{{ '/images/logo.svg'|asseturl }}" alt="Namespace" />
+      </div>
+    </div>
+  </div>
 {% endblock %}
