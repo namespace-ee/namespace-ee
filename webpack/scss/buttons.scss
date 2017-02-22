@@ -1,0 +1,23 @@
+
+
+.btn {
+  &.btn-lg {
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+
+    &.btn-rounded {
+      border-radius: 48px;
+    }
+  }
+
+  &.btn-rounded {
+    border-radius: 38px;
+  }
+
+  &.grad-btn {
+    background-image: linear-gradient(90deg, #6250E5 0%, #2EB2FF 100%);
+    border-radius: 100px;
+    border-color: transparent;
+  }
+}

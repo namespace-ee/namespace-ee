@@ -9,9 +9,15 @@
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
-  <div id="particles-background">
-  </div>
+  {% block navigation %}
+    {% include 'navigation.html' %}
+  {% endblock %}
+
   {% block body %}{% endblock %}
+
+  {% block footer %}
+    {% include 'footer.html' %}
+  {% endblock %}
 
   <script type=text/javascript src="{{ '/webpack/app.js'|asseturl }}" charset="utf-8"></script>
 </body>

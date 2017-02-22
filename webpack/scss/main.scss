@@ -1,25 +1,10 @@
+@import "variables";
 @import '~bootstrap/scss/bootstrap';
 
-html, body {
-  height: 100%;
-  font-family: 'Karla', sans-serif;
-}
+@import "buttons";
+@import "general";
+@import "navigation";
+@import "footer";
 
-#particles-background {
-  width: 100%;
-  height: 100%;
-  background: #20222E;
-  position: fixed;
-  z-index: -10;
-  top: 0;
-  left: 0;
-}
-
-.container, .row {
-  height: 100%;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
+// Pages
+@import "pages/home";
