@@ -2,14 +2,27 @@
   background: url('/images/footer-background.png') #181A28 no-repeat top center;
   background-size: cover;
   color: #FFFFFF;
-  margin-top: -140px;
-  padding-top: 250px;
+  margin-top: -40px;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+    margin-top: -140px;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
 
   h2 {
-    font-size: 45px;
+    font-size: 25px;
     color: #FFFFFF;
     letter-spacing: 0;
     margin-bottom: 57px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 45px;
+    }
   }
 
   .contact-item {

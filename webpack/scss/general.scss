@@ -8,24 +8,35 @@ html, body {
   padding-top: 46px;
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 34px;
     margin-bottom: 17px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 24px;
+    }
   }
 
   h2.subtitle {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     color: #8898AE;
     letter-spacing: 0;
     line-height: 28px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+    }
   }
 
 
   .taglines {
-    padding-top: 100px;
+    padding-top: 80px;
+    @include media-breakpoint-up(sm) {
+      padding-top: 100px;
+    }
   }
 
 }
@@ -47,7 +58,11 @@ html, body {
   z-index: 2;
 
   margin-top: -75px;
-  padding-top: 100px;
+  padding-top: 50px;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 100px;
+  }
 
   .inner {
     background: #FFFFFF;
