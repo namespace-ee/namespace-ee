@@ -1,0 +1,81 @@
+.hero.open-source-hero {
+  h2.subtitle {
+    padding-bottom: 33px;
+    margin-bottom: 0;
+  }
+
+  .follow-btn {
+    img, .text {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    img {
+      margin-right: 5px;
+    }
+  }
+}
+
+.open-source-container {
+  margin-top: -75px;
+  padding-bottom: 90px;
+}
+
+.open-source-item {
+  background: #FFFFFF;
+  box-shadow: 0 32px 50px 0 rgba(142,155,173,0.20);
+  border-radius: 2px;
+  height: 285px;
+  padding: 40px 40px 70px;
+  margin-bottom: 30px;
+  position: relative;
+  font-size: 16px;
+  color: #67788E;
+  letter-spacing: 0;
+  line-height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  p {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 18px;
+    color: #181929;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+  }
+
+  .help-link {
+    position: absolute;
+    bottom: 34px;
+    left: 40px;
+
+    a {
+      font-size: 16px;
+      color: #8898AE;
+      letter-spacing: 0;
+      line-height: 26px;
+    }
+  }
+}
+
+.your-ideas {
+  margin-top: 105px;
+
+  h2 {
+    font-size: 45px;
+    color: #6250E5;
+    letter-spacing: 0;
+    line-height: 34px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    color: #8898AE;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+}
