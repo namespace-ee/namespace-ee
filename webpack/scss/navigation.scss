@@ -4,26 +4,109 @@
   right: 0;
   z-index: 10;
 
+  >.container {
+    padding: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto !important;
+    background: #20222e;
+    z-index: 1080;
+    padding-top: 80px;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+      position: static;
+      top: auto;
+      left: auto;
+      right: auto;
+      bottom: auto;
+      background: transparent;
+      z-index: auto;
+    }
+
+    &.no-transition {
+      transition: none !important;
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+
+      .navbar-close-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat 50%;
+        background-size: 100% 100%;
+        background-image: $navbar-transparent-close-bg;
+      }
+    }
+  }
+
   .navbar {
     background-color: transparent;
-    padding-top: 28px;
+    padding: 28px 0 0;
+
+    .navbar-toggler-icon {
+      background-image: $navbar-trasnparent-toggler-bg;
+    }
 
     .navbar-brand {
+      margin-left: 1rem;
+
+      @include media-breakpoint-up(sm) {
+        margin-left: 0;
+      }
+
       img {
         max-width: 145px;
       }
     }
 
-    .navbar-nav {
-      width: 100%;
+    .small-brand {
       text-align: center;
-      display: block;
+      margin-bottom: 50px;
+
+      .navbar-brand {
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+
+    .navbar-nav {
+      text-align: center;
+      font-size: 20px;
+
+      @include media-breakpoint-up(lg) {
+        width: 100%;
+        display: block;
+        font-size: 16px;
+      }
 
       .nav-link {
         color: #67788E;
         letter-spacing: 0;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
+
+
 
 
         &.disabled {
@@ -55,13 +138,15 @@
       }
 
       .nav-item {
-        display: inline-block;
-        &.right-item {
-          float: right;
-          min-width: 161px;
+        @include media-breakpoint-up(lg) {
+          display: inline-block;
+          &.right-item {
+            float: right;
+            min-width: 161px;
 
-          .fancy-link {
-            text-align: right;
+            .fancy-link {
+              text-align: right;
+            }
           }
         }
       }

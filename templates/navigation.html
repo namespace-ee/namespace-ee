@@ -5,7 +5,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#"><img src="{{ '/images/logo.svg'|asseturl }}" alt="Namespace" /></a>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse no-transition" id="navbarNav">
+        <div class="hidden-lg-up small-brand">
+          <a class="navbar-brand" href="#"><img src="{{ '/images/logo.svg'|asseturl }}" alt="Namespace" /></a>
+        </div>
+        <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-close-icon"></span>
+        </button>
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="/">What we do <span class="sr-only">(current)</span></a>

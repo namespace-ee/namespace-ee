@@ -1,5 +1,8 @@
 .hero.home-hero {
-  padding-top: 76px;
+
+  >.container {
+    padding-top: 76px;
+  }
 
   h1 {
     font-size: 24px;

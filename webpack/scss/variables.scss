@@ -3,3 +3,7 @@ $body-bg: #F3F5F6;
 $body-color: #8898AE;
 $brand-success: #27DE7C;
 $headings-font-weight: bold;
+$navbar-transparent-color: #FFFFFF;
+$navbar-trasnparent-toggler-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-transparent-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
+$navbar-transparent-close-bg: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M1.16116524%2C18.631728%20L18.131728%2C1.66116524%20M1.86827202%2C1.66116524%20L18.8388348%2C18.631728%22%20id%3D%22Shape%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%222%22%20fill%3D%22%23000000%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%0D%0A%3C%2Fsvg%3E");
+//$transition-collapse: height .01s ease;

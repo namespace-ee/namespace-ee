@@ -5,7 +5,10 @@ html, body {
 .hero {
   position: relative;
   min-height: 586px;
-  padding-top: 46px;
+
+  >.container {
+    padding-top: 46px;
+  }
 
   h1 {
     font-size: 20px;
@@ -112,4 +115,9 @@ p {
       background-image: linear-gradient(90deg, #6250E5 0%, #2EB2FF 100%);
     }
   }
+}
+
+#lektor-edit-link {
+  top: auto !important;
+  bottom: 10px !important;
 }
