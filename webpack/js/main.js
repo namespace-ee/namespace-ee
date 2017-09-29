@@ -1,9 +1,5 @@
-var $ = require('jquery');
-window.$ = $;
-window.jQuery = $;
-window.Tether = require('tether');
-require('bootstrap');
-require('particles.js');
+import 'bootstrap';
+import 'particles.js';
 
 $(document).ready(function() {
 
