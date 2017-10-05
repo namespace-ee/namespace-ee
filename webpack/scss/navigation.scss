@@ -8,6 +8,11 @@
     padding: 0;
   }
 
+  .navbar-toggler {
+    position: absolute;
+    right: 1rem;
+  }
+
   @include media-breakpoint-up(lg) {
 
   }
