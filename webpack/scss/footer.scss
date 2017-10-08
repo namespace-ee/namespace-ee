@@ -40,6 +40,12 @@
       letter-spacing: 0;
       line-height: 26px;
       margin-bottom: 0;
+      a {
+        color: #fff;
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 

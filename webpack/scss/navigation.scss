@@ -11,6 +11,7 @@
   .navbar-toggler {
     position: absolute;
     right: 1rem;
+    border: none;
   }
 
   @include media-breakpoint-up(lg) {
@@ -70,6 +71,10 @@
 
     .navbar-toggler-icon {
       background-image: $navbar-trasnparent-toggler-bg;
+    }
+
+    .navbar-light .navbar-toggler {
+      border: none;
     }
 
     .navbar-brand {
