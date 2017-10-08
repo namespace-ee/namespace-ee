@@ -30,17 +30,17 @@
 }
 
 .project-item {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   text-align: center;
 
   @include media-breakpoint-up(md) {
-    padding: 0 20px;
+    padding: 0 40px;
   }
 
   @include media-breakpoint-up(lg) {
     padding: 0;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   h3 {
