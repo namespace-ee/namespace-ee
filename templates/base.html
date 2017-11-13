@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{% block title %}Namespace OÜ{% endblock %}</title>
+  <title>{% block title %}Namespace OÜ - Creating applications that matter{% endblock %}</title>
+  <meta name="description" content="Full service digital agency based in Tallinn. We are Python, API and React.js experts. Creating applications that matter.">
 
   <link rel="stylesheet" href="{{ '/webpack/styles.css'|asseturl }}">
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;subset=latin-ext" rel="stylesheet">
@@ -22,7 +23,16 @@
 
   <script type=text/javascript src="{{ '/webpack/app.js'|asseturl }}" charset="utf-8"></script>
 
-  <!-- Github -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  {% block js %}{% endblock %}
+
+  <!-- Google analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58469470-9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-58469470-9');
+  </script>
 </body>
 </html>
