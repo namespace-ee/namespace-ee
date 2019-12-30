@@ -80,26 +80,32 @@ const OpenSource = () => (
                 <div className="help-link">
                   <a href="https://github.com/namespace-ee/django-rest-framework-sso">Like to help? Fork on Github!</a>
                   <br />
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-rest-framework-sso"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star namespace-ee/django-rest-framework-sso on GitHub"
-                  >
-                    Star
-                  </a>
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-rest-framework-sso/fork"
-                    data-icon="octicon-repo-forked"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Fork namespace-ee/django-rest-framework-sso on GitHub"
-                  >
-                    Fork
-                  </a>
+                  <ul className="list-inline">
+                    <li className="list-inline-item">
+                      <a
+                        className="github-button"
+                        href="https://github.com/namespace-ee/django-rest-framework-sso"
+                        data-icon="octicon-star"
+                        data-size="large"
+                        data-show-count="true"
+                        aria-label="Star namespace-ee/django-rest-framework-sso on GitHub"
+                      >
+                        Star
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        className="github-button"
+                        href="https://github.com/namespace-ee/django-rest-framework-sso/fork"
+                        data-icon="octicon-repo-forked"
+                        data-size="large"
+                        data-show-count="true"
+                        aria-label="Fork namespace-ee/django-rest-framework-sso on GitHub"
+                      >
+                        Fork
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

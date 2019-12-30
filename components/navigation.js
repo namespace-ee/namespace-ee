@@ -39,7 +39,7 @@ const Navigation = () => (
             <span className="navbar-close-icon" />
           </button>
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item active">
               <Link href="/">
                 <a className="nav-link">What we do</a>
               </Link>
