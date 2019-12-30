@@ -1,12 +1,12 @@
-@import "variables";
-@import "~bootstrap/scss/bootstrap";
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
 
-@import "buttons";
-@import "general";
-@import "navigation";
-@import "footer";
+@import 'buttons';
+@import 'general';
+@import 'navigation';
+@import 'footer';
 
 // Pages
-@import "pages/home";
-@import "pages/project";
-@import "pages/open-source";
+@import 'pages/home';
+@import 'pages/project';
+@import 'pages/open-source';

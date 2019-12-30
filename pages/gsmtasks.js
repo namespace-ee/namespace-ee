@@ -5,9 +5,7 @@ import Footer from '../components/footer';
 import Navidation from '../components/navigation';
 
 class GSMtasks extends React.Component {
-  componentDidMount () {
-    
-  }
+  componentDidMount() {}
 
   render() {
     return (

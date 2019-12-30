@@ -6,12 +6,13 @@
 
 .text-row {
   a {
-    color: #67788E;
+    color: #67788e;
     font-weight: bold;
   }
 }
 
-.text-row, .image-row {
+.text-row,
+.image-row {
   padding: 0 10px;
 
   @include media-breakpoint-up(md) {
@@ -19,7 +20,8 @@
   }
 }
 
-.full-image-row, .image-row {
+.full-image-row,
+.image-row {
   margin: 22px 0 40px;
 
   @include media-breakpoint-up(md) {
@@ -54,7 +56,7 @@
 
   .visit-project {
     position: relative;
-    background-image: linear-gradient(90deg, #6250E5 0%, #2EB2FF 100%);
+    background-image: linear-gradient(90deg, #6250e5 0%, #2eb2ff 100%);
     margin: 0 -15px;
     padding: 33px 0 40px;
 
@@ -64,7 +66,7 @@
 
     .visit-title {
       font-size: 18px;
-      color: #C3CBD6;
+      color: #c3cbd6;
       letter-spacing: 0;
       line-height: 28px;
       margin-bottom: -7px;
@@ -73,12 +75,12 @@
     .link {
       font-weight: bold;
       font-size: 36px;
-      color: #FFFFFF;
+      color: #ffffff;
       letter-spacing: 0;
       margin-bottom: -8px;
 
       a {
-        color: #FFFFFF;
+        color: #ffffff;
         text-decoration: none;
       }
     }
@@ -100,7 +102,7 @@
 
       a {
         font-size: 18px;
-        color: #FFFFFF;
+        color: #ffffff;
         letter-spacing: 0;
         line-height: 28px;
       }
