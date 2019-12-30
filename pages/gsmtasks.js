@@ -105,8 +105,8 @@ class GSMtasks extends React.Component {
                       Due to the scale and importance of this project, the Wiredcraft team took its time thinking
                       through designing the product. After hosting workshops with the World Bank’s team, we established
                       a need for feature parity with the previous version of the website and key integration points with
-                      some of the World Bank’s other services (<Link to="#">databank.worldbank.org</Link> &{' '}
-                      <Link to="#">datacatalog.worldbank.org</Link>).
+                      some of the World Bank’s other services (<Link href="#">databank.worldbank.org</Link> &{' '}
+                      <Link href="#">datacatalog.worldbank.org</Link>).
                     </p>
                     <p>
                       The key user personas for designing this product were: - Academics - Journalists - International
@@ -143,11 +143,11 @@ class GSMtasks extends React.Component {
                 <div className="text-center">
                   <div className="visit-title">Visit project at</div>
                   <div className="link">
-                    <Link to="#">gsmtasks.com</Link>
+                    <Link href="#">gsmtasks.com</Link>
                   </div>
                 </div>
                 <div className="next-project">
-                  <Link to="#">
+                  <Link href="#">
                     <span className="text">Parcelfellows</span>
                     <img src="{{ '/images/arrow-right.svg'|asseturl }}" alt="" />
                   </Link>

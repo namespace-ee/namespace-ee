@@ -4,8 +4,9 @@ import { string } from 'prop-types';
 
 import stylesheet from '../styles/index.scss';
 
-const defaultTitle = 'Namespace OÜ - Creating applications that matter'
-const defaultDescription = 'Full service digital agency based in Tallinn. We are Python, API and React.js experts. Creating applications that matter.';
+const defaultTitle = 'Namespace OÜ - Creating applications that matter';
+const defaultDescription =
+  'Full service digital agency based in Tallinn. We are Python, API and React.js experts. Creating applications that matter.';
 const defaultOGURL = 'https://namespace.ee';
 const defaultOGImage = 'https://namespace.ee/images/namespace.png';
 

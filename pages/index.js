@@ -126,9 +126,9 @@ class Index extends React.Component {
                     We are a full service digital agency based in Tallinn. We are Python, API and React.js experts.
                   </h2>
                   <div className="cta">
-                    <Link to="mailto:info@namespace.ee">
-                      <a className="btn btn-lg btn-success btn-rounded">Work with us</a>
-                    </Link>
+                    <a href="mailto:info@namespace.ee" className="btn btn-lg btn-success btn-rounded">
+                      Work with us
+                    </a>
                   </div>
                 </div>
               </div>
@@ -156,9 +156,9 @@ class Index extends React.Component {
                         for iOS and Android.
                       </p>
                       <div className="buttons">
-                        <Link to="https://www.gsmtasks.com/">
-                          <a className="btn btn-lg btn-primary grad-btn">gsmtasks.com</a>
-                        </Link>
+                        <a href="https://www.gsmtasks.com/" className="btn btn-lg btn-primary grad-btn">
+                          gsmtasks.com
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -176,9 +176,9 @@ class Index extends React.Component {
                         for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions.
                       </p>
                       <div className="buttons">
-                        <Link to="https://www.parcelfellows.com/">
-                          <a className="btn btn-lg btn-primary grad-btn">parcelfellows.com</a>
-                        </Link>
+                        <a href="https://www.parcelfellows.com/" className="btn btn-lg btn-primary grad-btn">
+                          parcelfellows.com
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -207,7 +207,7 @@ class Index extends React.Component {
                         request).
                       </p>
                       <div className="buttons">
-                        <Link to="https://tickets.namespace.ee/">
+                        <Link href="https://tickets.namespace.ee/">
                           <a className="btn btn-lg btn-primary grad-btn">tickets.namespace.ee</a>
                         </Link>
                       </div>
