@@ -6,6 +6,7 @@ body {
 .hero {
   position: relative;
   min-height: 586px;
+  overflow: hidden;
 
   > .container {
     padding-top: 46px;

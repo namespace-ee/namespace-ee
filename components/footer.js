@@ -29,11 +29,13 @@ const Footer = () => (
             </div>
 
             <div className="get-directions">
-              <Link href="https://www.google.ee/maps/place/ON-hoone/@59.4401833,24.7276245,17z/data=!3m1!4b1!4m5!3m4!1s0x4692937debffa363:0x8b51c1f5eb6c921!8m2!3d59.4401833!4d24.7298185">
-                <a className="btn grad-btn btn-primary" target="_blank">
-                  Get Directions
-                </a>
-              </Link>
+              <a
+                href="https://www.google.ee/maps/place/ON-hoone/@59.4401833,24.7276245,17z/data=!3m1!4b1!4m5!3m4!1s0x4692937debffa363:0x8b51c1f5eb6c921!8m2!3d59.4401833!4d24.7298185"
+                className="btn grad-btn btn-primary"
+                target="_blank"
+              >
+                Get Directions
+              </a>
             </div>
           </div>
         </div>

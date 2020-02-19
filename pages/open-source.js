@@ -1,16 +1,20 @@
 import React from 'react';
-import Link from 'next/link';
+import { Fork, Star } from 'react-github-buttons';
+
 import Head from '../components/head';
 import Footer from '../components/footer';
 import Navidation from '../components/navigation';
+import Particles from '../components/particles';
 
 const OpenSource = () => (
-  <div>
-    <Head title="Home" />
+  <div id="open-source">
+    <Head />
     <Navidation />
 
     <div className="hero open-source-hero">
-      <div id="particles-background" />
+      <div id="particles-background">
+        <Particles />
+      </div>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-7">
@@ -42,29 +46,13 @@ const OpenSource = () => (
                   <h5>react-calendar-timeline</h5>
                   <p>A modern and responsive react timeline component.</p>
                 </div>
-                <div className="help-link">
-                  <a href="https://github.com/namespace-ee/react-calendar-timeline">Like to help?</a>
+                <div className="actions">
+                  <a href="https://github.com/namespace-ee/react-calendar-timeline" className="help-link">
+                    Like to help?
+                  </a>
                   <br />
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/react-calendar-timeline"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star namespace-ee/react-calendar-timeline on GitHub"
-                  >
-                    Star
-                  </a>
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/react-calendar-timeline/fork"
-                    data-icon="octicon-repo-forked"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Fork namespace-ee/react-calendar-timeline on GitHub"
-                  >
-                    Fork
-                  </a>
+                  <Star owner="namespace-ee" repo="react-calendar-timeline" />
+                  <Fork owner="namespace-ee" repo="react-calendar-timeline" />
                 </div>
               </div>
             </div>
@@ -77,35 +65,13 @@ const OpenSource = () => (
                     microservice-oriented environment using the JWT standard.
                   </p>
                 </div>
-                <div className="help-link">
-                  <a href="https://github.com/namespace-ee/django-rest-framework-sso">Like to help? Fork on Github!</a>
+                <div className="actions">
+                  <a href="https://github.com/namespace-ee/django-rest-framework-sso" className="help-link">
+                    Like to help? Fork on Github!
+                  </a>
                   <br />
-                  <ul className="list-inline">
-                    <li className="list-inline-item">
-                      <a
-                        className="github-button"
-                        href="https://github.com/namespace-ee/django-rest-framework-sso"
-                        data-icon="octicon-star"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Star namespace-ee/django-rest-framework-sso on GitHub"
-                      >
-                        Star
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        className="github-button"
-                        href="https://github.com/namespace-ee/django-rest-framework-sso/fork"
-                        data-icon="octicon-repo-forked"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Fork namespace-ee/django-rest-framework-sso on GitHub"
-                      >
-                        Fork
-                      </a>
-                    </li>
-                  </ul>
+                  <Star owner="namespace-ee" repo="django-rest-framework-sso" />
+                  <Fork owner="namespace-ee" repo="django-rest-framework-sso" />
                 </div>
               </div>
             </div>
@@ -117,29 +83,13 @@ const OpenSource = () => (
                   <h5>django-rest-framework-sideloading</h5>
                   <p>Extention for Django Rest Framework to enable simple sideloading.</p>
                 </div>
-                <div className="help-link">
-                  <a href="https://github.com/namespace-ee/django-rest-framework-sideloading">Like to help?</a>
+                <div className="actions">
+                  <a href="https://github.com/namespace-ee/django-rest-framework-sideloading" className="help-link">
+                    Like to help?
+                  </a>
                   <br />
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-rest-framework-sideloading"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star namespace-ee/django-rest-framework-sideloading on GitHub"
-                  >
-                    Star
-                  </a>
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-rest-framework-sideloading/fork"
-                    data-icon="octicon-repo-forked"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Fork namespace-ee/django-rest-framework-sideloading on GitHub"
-                  >
-                    Fork
-                  </a>
+                  <Star owner="namespace-ee" repo="django-rest-framework-sideloading" />
+                  <Fork owner="namespace-ee" repo="django-rest-framework-sideloading" />
                 </div>
               </div>
             </div>
@@ -149,29 +99,13 @@ const OpenSource = () => (
                   <h5>django-electron-pdf</h5>
                   <p>A Django wrapper to generate PDF from URL, HTML or Markdown files.</p>
                 </div>
-                <div className="help-link">
-                  <a href="https://github.com/namespace-ee/django-electron-pdf">Like to help?</a>
+                <div className="actions">
+                  <a href="https://github.com/namespace-ee/django-electron-pdf" className="help-link">
+                    Like to help?
+                  </a>
                   <br />
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-electron-pdf"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star namespace-ee/django-electron-pdf on GitHub"
-                  >
-                    Star
-                  </a>
-                  <a
-                    className="github-button"
-                    href="https://github.com/namespace-ee/django-electron-pdf/fork"
-                    data-icon="octicon-repo-forked"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Fork namespace-ee/django-electron-pdf on GitHub"
-                  >
-                    Fork
-                  </a>
+                  <Star owner="namespace-ee" repo="django-electron-pdf" />
+                  <Fork owner="namespace-ee" repo="django-electron-pdf" />
                 </div>
               </div>
             </div>
@@ -187,8 +121,6 @@ const OpenSource = () => (
         </div>
       </div>
     </div>
-
-    <script async defer src="https://buttons.github.io/buttons.js" />
     <Footer />
   </div>
 );

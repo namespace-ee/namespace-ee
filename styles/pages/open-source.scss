@@ -66,16 +66,24 @@
     margin-bottom: 20px;
   }
 
-  .help-link {
+  .actions {
     position: absolute;
     bottom: 34px;
     left: 40px;
+    width: 100%;
 
-    a {
+    a.help-link {
       font-size: 16px;
       color: #8898ae;
       letter-spacing: 0;
       line-height: 36px;
+    }
+
+    div[class^='styles_root'] {
+      margin: 0;
+      a {
+        margin-right: 5px;
+      }
     }
   }
 }

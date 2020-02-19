@@ -33,9 +33,6 @@ const Head = props => (
     <link rel="icon" href="/static/favicon.ico" />
     {/* Google fonts */}
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;subset=latin-ext" rel="stylesheet" />
-
-    {/* Github buttons */}
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </NextHead>
 );
 
