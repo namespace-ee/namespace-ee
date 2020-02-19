@@ -1,0 +1,107 @@
+.main-footer {
+  background: url('/images/footer-background.png') #181a28 no-repeat top center;
+  background-size: cover;
+  color: #ffffff;
+  margin-top: -40px;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+    margin-top: -140px;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-bottom: 57px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 45px;
+    }
+  }
+
+  .contact-item {
+    margin-bottom: 32px;
+    h4 {
+      font-size: 18px;
+      color: #8898ae;
+      letter-spacing: 0;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #f3f5f6;
+      letter-spacing: 0;
+      line-height: 26px;
+      margin-bottom: 0;
+      a {
+        color: #fff;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .get-directions {
+    margin-top: 100px;
+  }
+
+  .code-container {
+    opacity: 0.7;
+    background: #252c40;
+    border: 1px solid rgba(102, 120, 142, 0.4);
+    box-shadow: 0 2px 44px 0 rgba(24, 26, 40, 0.51);
+    border-radius: 4px;
+    font-size: 13px;
+    color: #a4b6cd;
+    letter-spacing: -0.9px;
+    line-height: 23px;
+    font-family: $font-family-sans-serif;
+    padding: 52px 20px 110px;
+    position: relative;
+    margin-top: 49px;
+
+    ol {
+      margin-left: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        counter-increment: step-counter;
+
+        &:before {
+          color: #a4b6cd;
+          content: counter(step-counter);
+          opacity: 0.4;
+          margin-right: 12px;
+          text-align: right;
+          display: inline-block;
+          font-size: 11px;
+          min-width: 16px;
+          font-family: $font-family-monospace;
+        }
+      }
+    }
+
+    .highlight {
+      color: #ffffff;
+    }
+  }
+
+  .buttons {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
+}
+
+#open-source .main-footer {
+  margin-top: 0;
+}
