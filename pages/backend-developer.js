@@ -40,9 +40,9 @@ class BackendDeveloper extends React.Component {
                   <div className="col-lg-8 mx-auto">
                     <div className="text-content">
                       <p>
-                        We are a small agile team of software developers who builds and 2 delivers quality business
-                        software for fleet- and workforce 3 management, online sales and order fulfillment services. We
-                        create 4 well-designed interactive web applications that our users trust and 5 enjoyworkingwith.
+                        We are a small agile team of software developers who builds and delivers quality business
+                        software for fleet- and workforce management, online sales and order fulfillment services. We
+                        create well-designed interactive web applications that our users trust and enjoy working with.
                       </p>
                       <p style={{ marginTop: 40 }}>
                         We are looking for a new member to join our team:
