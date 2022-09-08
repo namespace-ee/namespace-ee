@@ -41,7 +41,7 @@ class Index extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mx-auto">
                     <div className="image align-right">
-                      <img className="img-fluid" src="/static/images/gsmtasks.png" alt="GSMtasks" />
+                      <img className="img-fluid" src="images/gsmtasks.png" alt="GSMtasks" />
                     </div>
                   </div>
                   <div className="col-lg-4 mx-auto">
@@ -82,7 +82,7 @@ class Index extends React.Component {
                   </div>
                   <div className="col-lg-6 mx-auto">
                     <div className="image">
-                      <img className="img-fluid" src="/static/images/parcelfellows.png" alt="Parcelfellows" />
+                      <img className="img-fluid" src="/images/parcelfellows.png" alt="Parcelfellows" />
                     </div>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ class Index extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mx-autp">
                     <div className="image align-right">
-                      <img className="img-fluid" src="/static/images/tickets.png" alt="Ticketing" />
+                      <img className="img-fluid" src="/images/tickets.png" alt="Ticketing" />
                     </div>
                   </div>
                   <div className="col-lg-4 mx-auto">

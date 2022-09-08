@@ -22,13 +22,13 @@ const Navigation = () => {
           </button>
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/static/images/logo.svg" alt="Namespace" />
+              <img src="/images/logo.svg" alt="Namespace" />
             </a>
           </Link>
           <div className="collapse navbar-collapse no-transition" id="navbarNav">
             <div className="d-lg-none small-brand">
               <a className="navbar-brand" href="/">
-                <img src="/static/images/logo.svg" alt="Namespace" />
+                <img src="/images/logo.svg" alt="Namespace" />
               </a>
             </div>
             <button

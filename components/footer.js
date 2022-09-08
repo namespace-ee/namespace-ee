@@ -42,7 +42,7 @@ const Footer = () => (
         <div className="col-lg-7 push-lg-1 d-none d-lg-block">
           <div className="code-container">
             <div className="buttons">
-              <img src="/static/images/footer-buttons.svg" alt="" />
+              <img src="/images/footer-buttons.svg" alt="" />
             </div>
             <ol>
               <li>Beautiful is better than ugly.</li>

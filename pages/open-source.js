@@ -27,7 +27,7 @@ const OpenSource = () => (
               </h2>
               <div className="cta">
                 <a href="https://github.com/namespace-ee" className="btn btn-lg grad-btn btn-rounded follow-btn">
-                  <img src="/static/images/octocat.svg" alt="Octocat" />
+                  <img src="/images/octocat.svg" alt="Octocat" />
                   <span className="text">Follow @namespace-ee</span>
                 </a>
               </div>

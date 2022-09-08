@@ -2,8 +2,6 @@ import React from 'react';
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
-import stylesheet from '../styles/index.scss';
-
 const defaultTitle = 'Namespace OÜ - Creating applications that matter';
 const defaultDescription =
   'Full service digital agency based in Tallinn. We are Python, API and React.js experts. Creating applications that matter.';
@@ -27,10 +25,10 @@ const Head = props => (
     <meta property="og:image:height" content="630" />
 
     {/* Favicon */}
-    <link rel="icon" sizes="192x192" href="/static/touch-icon.png" />
-    <link rel="apple-touch-icon" href="/static/touch-icon.png" />
-    <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
-    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="icon" sizes="192x192" href="/touch-icon.png" />
+    <link rel="apple-touch-icon" href="/touch-icon.png" />
+    <link rel="mask-icon" href="/favicon-mask.svg" color="#49B882" />
+    <link rel="icon" href="/favicon.ico" />
     {/* Google fonts */}
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&amp;subset=latin-ext" rel="stylesheet" />
   </NextHead>
