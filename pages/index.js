@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 import Head from '../components/head';
 import Footer from '../components/footer';
 import Navidation from '../components/navigation';
@@ -41,7 +43,7 @@ class Index extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mx-auto">
                     <div className="image align-right">
-                      <img className="img-fluid" src="images/gsmtasks.png" alt="GSMtasks" />
+                      <Image layout="responsive" width={1138} height={1002} src="/images/gsmtasks.png" alt="GSMtasks" />
                     </div>
                   </div>
                   <div className="col-lg-4 mx-auto">
@@ -82,7 +84,13 @@ class Index extends React.Component {
                   </div>
                   <div className="col-lg-6 mx-auto">
                     <div className="image">
-                      <img className="img-fluid" src="/images/parcelfellows.png" alt="Parcelfellows" />
+                      <Image
+                        layout="responsive"
+                        width={1328}
+                        height={998}
+                        src="/images/parcelfellows.png"
+                        alt="Parcelfellows"
+                      />
                     </div>
                   </div>
                 </div>
@@ -91,12 +99,12 @@ class Index extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mx-autp">
                     <div className="image align-right">
-                      <img className="img-fluid" src="/images/tickets.png" alt="Ticketing" />
+                      <Image layout="responsive" width={994} height={1160} src="/images/tickets.png" alt="Ticketing" />
                     </div>
                   </div>
                   <div className="col-lg-4 mx-auto">
                     <h3>Ticketing by Namespace</h3>
-                    <div className="subtitle">TICKETING SYSTEM</div>
+                    <div className="subtitle">Ticketing system</div>
                     <div className="text-content">
                       <p>
                         We offer an advanced ticket sales system that is also embeddable to your own website. Create an
@@ -104,11 +112,11 @@ class Index extends React.Component {
                         Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on
                         request).
                       </p>
-                      <div className="buttons">
+                      {/*<div className="buttons">
                         <a href="https://tickets.namespace.ee/" className="btn btn-lg btn-primary grad-btn">
                           tickets.namespace.ee
                         </a>
-                      </div>
+                      </div>*/}
                     </div>
                   </div>
                 </div>

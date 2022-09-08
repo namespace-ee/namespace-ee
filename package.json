@@ -2,15 +2,22 @@
   "name": "create-next-example-app",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "lingui compile && next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run build && npm run export"
+    "deploy": "npm run build && npm run export",
+    "extract": "lingui extract",
+    "compile": "lingui compile",
+    "add-locale": "lingui add-locale"
   },
   "dependencies": {
+    "@lingui/loader": "^3.14.0",
+    "@lingui/react": "^3.14.0",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.4.1",
+    "lodash": "^4.17.21",
     "next": "12",
+    "nookies": "^2.5.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-ga": "3",
@@ -19,6 +26,8 @@
     "sass": "^1.54.9"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@lingui/cli": "^3.14.0",
     "prettier": "1.19.1"
   }
 }

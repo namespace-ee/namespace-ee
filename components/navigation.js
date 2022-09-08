@@ -53,6 +53,12 @@ const Navigation = () => {
                   <a className="nav-link">Open Source</a>
                 </Link>
               </li>
+
+              <li className="nav-item right-item">
+                <a href="#" className="nav-link">
+                  <span className="inner">EN</span>
+                </a>
+              </li>
               <li className="nav-item right-item">
                 <a href="mailto:info@namespace.ee" className="nav-link fancy-link">
                   <span className="inner">Contact us</span>
