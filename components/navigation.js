@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
+import nookies from 'nookies';
 import { Trans } from '@lingui/macro';
 import { useLingui } from '@lingui/react';
 import { useRouter } from 'next/router';
@@ -10,8 +11,18 @@ import ETFlag from '../public/flags/et.svg';
 import ENFlag from '../public/flags/en.svg';
 
 const Navigation = () => {
-  const { i18n } = useLingui();
   const router = useRouter();
+  const [isHovering, setIsHovering] = useState(false);
+
+  const { i18n } = useLingui();
+
+  const setLanguage = language => {
+    nookies.set(null, 'language', language, {
+      maxAge: 30 * 24 * 60 * 60,
+      path: '/',
+    });
+    i18n.activate(language);
+  };
 
   return (
     <div className="main-navigation">
@@ -67,18 +78,26 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item right-item minimal">
-                <div class="dropdown">
+                <div class="dropdown" onMouseOver={() => setIsHovering(true)} onMouseOut={() => setIsHovering(false)}>
                   <a href="#" className="nav-link">
-                    {i18n.locale === 'et' ? <ETFlag style={{ marginTop: -1, marginRight: 8 }} /> : <ENFlag />}
+                    {i18n.locale === 'et' ? (
+                      <ETFlag style={{ marginTop: -1, marginRight: 8 }} />
+                    ) : (
+                      <ENFlag style={{ marginTop: -1, marginRight: 8 }} />
+                    )}
                     {toUpper(i18n.locale)}
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style={{ minWidth: 0 }}>
-                    <a class="dropdown-item" href="#">
-                      <ETFlag />
+                  <div
+                    className={`dropdown-menu ${isHovering ? 'show' : ''}`}
+                    aria-labelledby="dropdownMenuLink"
+                    style={{ minWidth: 0 }}
+                  >
+                    <a class="dropdown-item" href="#" onClick={() => setLanguage('et')}>
+                      <ETFlag style={{ marginTop: -1, marginRight: 8 }} />
                       ET
                     </a>
-                    <a class="dropdown-item" href="#">
-                      <ENFlag />
+                    <a class="dropdown-item" href="#" onClick={() => setLanguage('en')}>
+                      <ENFlag style={{ marginTop: -1, marginRight: 8 }} />
                       EN
                     </a>
                   </div>

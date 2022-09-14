@@ -107,7 +107,7 @@ const Contact = () => (
                       className="btn btn-lg btn-success btn-rounded"
                       disabled={isSubmitting}
                     >
-                      <Trans>Saada sõnum</Trans>
+                      <Trans>Send message</Trans>
                     </button>
                   </div>
                 </div>
