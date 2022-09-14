@@ -1,13 +1,14 @@
 import formData from 'form-data';
 import Mailgun from 'mailgun.js';
+import { withSentry } from '@sentry/nextjs';
 
 const mailgun = new Mailgun(formData);
 const mg = mailgun.client({
   username: 'api',
-  key: 'key-fe049751b711822dd8e5595cfd5ef0fa',
+  key: process.env.MAILGUN_API_KEY,
 });
 
-export default (req, res) => {
+const handler = async (req, res) => {
   if (req.method === 'POST') {
     mg.messages
       .create('namespace.ee', {
@@ -32,3 +33,5 @@ export default (req, res) => {
     res.status(400).json({ message: 'error' });
   }
 };
+
+export default withSentry(handler);
