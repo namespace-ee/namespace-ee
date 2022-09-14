@@ -1,0 +1,13 @@
+.contact-form-container {
+  padding-bottom: 190px;
+  margin-top: -55px;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: -195px;
+  }
+
+  .content {
+    padding: 40px 80px;
+    background-color: #fff;
+  }
+}

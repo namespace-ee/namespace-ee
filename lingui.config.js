@@ -1,6 +1,6 @@
 module.exports = {
   locales: ['et', 'en'],
-  sourceLocale: 'et',
+  sourceLocale: 'en',
   catalogs: [
     {
       path: '<rootDir>/locale/{locale}/messages',

@@ -64,9 +64,9 @@ class BackendDeveloper extends React.Component {
                       </p>
 
                       <p>
-                        You would work in a dynamic team of developers at our modern office space in Telliskivi. We will
-                        provide a laptop and other tools needed for the job and offer a salary that matches your skills
-                        and experience.
+                        You would work in a dynamic team of developers at our modern office space in Porto Franco (Laeva
+                        1, Tallinn). We will provide a laptop and other tools needed for the job and offer a salary that
+                        matches your skills and experience.
                       </p>
 
                       <br />

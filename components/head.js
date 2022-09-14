@@ -1,5 +1,6 @@
 import React from 'react';
 import NextHead from 'next/head';
+import { Trans } from '@lingui/macro';
 import { string } from 'prop-types';
 
 const defaultTitle = 'Namespace OÜ - Creating applications that matter';

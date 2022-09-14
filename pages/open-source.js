@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fork, Star } from 'react-github-buttons';
+import { Trans } from '@lingui/macro';
 
 import Head from '../components/head';
 import Footer from '../components/footer';
@@ -19,11 +20,15 @@ const OpenSource = () => (
         <div className="row justify-content-center">
           <div className="col-md-7">
             <div className="text-center taglines">
-              <h1>Giving back</h1>
+              <h1>
+                <Trans>Giving back</Trans>
+              </h1>
               <h2 className="subtitle">
-                We build upon tools and libraries that have received the love and work of several thousands of
-                enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the
-                tools we have envisioned and built to help us deliver great apps for our customers.
+                <Trans>
+                  We build upon tools and libraries that have received the love and work of several thousands of
+                  enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the
+                  tools we have envisioned and built to help us deliver great apps for our customers.
+                </Trans>
               </h2>
               <div className="cta">
                 <a href="https://github.com/namespace-ee" className="btn btn-lg grad-btn btn-rounded follow-btn">
@@ -44,11 +49,13 @@ const OpenSource = () => (
               <div className="open-source-item">
                 <div className="inner">
                   <h5>react-calendar-timeline</h5>
-                  <p>A modern and responsive react timeline component.</p>
+                  <p>
+                    <Trans>A modern and responsive react timeline component.</Trans>
+                  </p>
                 </div>
                 <div className="actions">
                   <a href="https://github.com/namespace-ee/react-calendar-timeline" className="help-link">
-                    Like to help?
+                    <Trans>Like to help?</Trans>
                   </a>
                   <br />
                   <Star owner="namespace-ee" repo="react-calendar-timeline" />
@@ -61,13 +68,15 @@ const OpenSource = () => (
                 <div className="inner">
                   <h5>django-rest-framework-sso</h5>
                   <p>
-                    Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a
-                    microservice-oriented environment using the JWT standard.
+                    <Trans>
+                      Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in
+                      a microservice-oriented environment using the JWT standard.
+                    </Trans>
                   </p>
                 </div>
                 <div className="actions">
                   <a href="https://github.com/namespace-ee/django-rest-framework-sso" className="help-link">
-                    Like to help? Fork on Github!
+                    <Trans>Like to help? Fork on Github!</Trans>
                   </a>
                   <br />
                   <Star owner="namespace-ee" repo="django-rest-framework-sso" />
@@ -81,11 +90,13 @@ const OpenSource = () => (
               <div className="open-source-item">
                 <div className="inner">
                   <h5>django-rest-framework-sideloading</h5>
-                  <p>Extention for Django Rest Framework to enable simple sideloading.</p>
+                  <p>
+                    <Trans>Extention for Django Rest Framework to enable simple sideloading.</Trans>
+                  </p>
                 </div>
                 <div className="actions">
                   <a href="https://github.com/namespace-ee/django-rest-framework-sideloading" className="help-link">
-                    Like to help?
+                    <Trans>Like to help?</Trans>
                   </a>
                   <br />
                   <Star owner="namespace-ee" repo="django-rest-framework-sideloading" />
@@ -97,11 +108,13 @@ const OpenSource = () => (
               <div className="open-source-item">
                 <div className="inner">
                   <h5>django-electron-pdf</h5>
-                  <p>A Django wrapper to generate PDF from URL, HTML or Markdown files.</p>
+                  <p>
+                    <Trans>A Django wrapper to generate PDF from URL, HTML or Markdown files.</Trans>
+                  </p>
                 </div>
                 <div className="actions">
                   <a href="https://github.com/namespace-ee/django-electron-pdf" className="help-link">
-                    Like to help?
+                    <Trans>Like to help?</Trans>
                   </a>
                   <br />
                   <Star owner="namespace-ee" repo="django-electron-pdf" />
@@ -115,8 +128,12 @@ const OpenSource = () => (
       <div className="row">
         <div className="col">
           <div className="text-center your-ideas">
-            <h2>We would love to hear your ideas.</h2>
-            <div className="subtitle">We have the team, the knowledge and the experience.</div>
+            <h2>
+              <Trans>We would love to hear your ideas.</Trans>
+            </h2>
+            <div className="subtitle">
+              <Trans>We have the team, the knowledge and the experience to build them.</Trans>
+            </div>
           </div>
         </div>
       </div>
