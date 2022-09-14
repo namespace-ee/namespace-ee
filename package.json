@@ -14,6 +14,7 @@
     "@lingui/loader": "^3.14.0",
     "@lingui/macro": "^3.14.0",
     "@lingui/react": "^3.14.0",
+    "@sentry/nextjs": "^7.12.1",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.4.1",
     "formik": "^2.2.9",

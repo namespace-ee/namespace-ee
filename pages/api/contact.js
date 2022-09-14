@@ -10,9 +10,9 @@ const mg = mailgun.client({
 export default (req, res) => {
   if (req.method === 'POST') {
     mg.messages
-      .create('arveldaja.com', {
-        from: 'Arveldaja koduleht <gerda@arveldaja.com>',
-        to: ['gerda@arveldaja.com'],
+      .create('namespace.ee', {
+        from: 'Namespace koduleht <info@namespace.ee>',
+        to: ['info@namespace.ee'],
         subject: 'Kontakt: ',
         text: `Nimi: ${req.body.name}
         E-post: ${req.body.email}
