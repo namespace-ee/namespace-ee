@@ -1,36 +1,12 @@
+// This file sets a custom webpack configuration to use your Next.js app
+// with Sentry.
+// https://nextjs.org/docs/api-reference/next.config.js/introduction
+// https://docs.sentry.io/platforms/javascript/guides/nextjs/
+
 const { withSentryConfig } = require('@sentry/nextjs');
-const { locales, sourceLocale } = require('./lingui.config.js');
 
-moduleExports = {
-  i18n: {
-    locales,
-    defaultLocale: sourceLocale,
-    localeDetection: false,
-  },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback.fs = false;
-    }
-
-    // Lingui
-    config.module.rules.push({
-      test: /\.po/,
-      use: [
-        {
-          loader: '@lingui/loader',
-        },
-      ],
-    });
-
-    // SVGR
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ['@svgr/webpack'],
-    });
-
-    return config;
-  },
+const moduleExports = {
+  // Your existing module.exports
 };
 
 const sentryWebpackPluginOptions = {

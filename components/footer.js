@@ -23,8 +23,12 @@ const Footer = () => (
 
             <div className="contact-item">
               <h4>Location</h4>
-              <p>Telliskivi 60</p>
-              <p>Tallinn 10412</p>
+              <p>
+                <a href="https://goo.gl/maps/ei5iRCRrK2NuThLu5" target="_blank" className="fancy-link">
+                  <span className="inner">Laeva 1</span>
+                </a>
+              </p>
+              <p>Tallinn 10111</p>
               <p>Estonia</p>
             </div>
 

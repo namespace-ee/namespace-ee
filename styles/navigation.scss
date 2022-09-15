@@ -82,10 +82,6 @@
       @include media-breakpoint-up(sm) {
         margin-left: 0;
       }
-
-      img {
-        max-width: 145px;
-      }
     }
 
     .small-brand {
@@ -154,6 +150,9 @@
               text-align: right;
             }
           }
+        }
+        &.minimal {
+          min-width: 0;
         }
       }
 
