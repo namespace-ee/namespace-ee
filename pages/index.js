@@ -48,7 +48,13 @@ class Index extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6 mx-auto">
                     <div className="image align-right">
-                      <Image layout="responsive" width={1138} height={1002} src="/images/gsmtasks.png" alt="GSMtasks" />
+                      <Image
+                        layout="responsive"
+                        width={1138}
+                        height={1002}
+                        src="/images/gsmtasks.webp"
+                        alt="GSMtasks"
+                      />
                     </div>
                   </div>
                   <div className="col-lg-4 mx-auto">
@@ -96,7 +102,13 @@ class Index extends React.Component {
                   </div>
                   <div className="col-lg-6 mx-auto">
                     <div className="image align-right">
-                      <Image layout="responsive" width={1138} height={1002} src="/images/gsmtasks.png" alt="GSMtasks" />
+                      <Image
+                        layout="responsive"
+                        width={1138}
+                        height={1002}
+                        src="/images/gsmtasks.webp"
+                        alt="GSMtasks"
+                      />
                     </div>
                   </div>
                 </div>
@@ -109,7 +121,7 @@ class Index extends React.Component {
                         layout="responsive"
                         width={1328}
                         height={998}
-                        src="/images/parcelfellows.png"
+                        src="/images/parcelfellows.webp"
                         alt="Parcelfellows"
                       />
                     </div>
@@ -161,7 +173,7 @@ class Index extends React.Component {
                   </div>
                   <div className="col-lg-6 mx-autp">
                     <div className="image align-right">
-                      <Image layout="responsive" width={994} height={1160} src="/images/tickets.png" alt="Ticketing" />
+                      <Image layout="responsive" width={994} height={1160} src="/images/tickets.webp" alt="Ticketing" />
                     </div>
                   </div>
                 </div>
