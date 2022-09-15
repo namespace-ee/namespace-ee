@@ -31,7 +31,7 @@ class Index extends React.Component {
                     </Trans>
                   </h2>
                   <div className="cta">
-                    <a href="mailto:info@namespace.ee" className="btn btn-lg btn-success btn-rounded">
+                    <a href="/contact" className="btn btn-lg btn-success btn-rounded">
                       <Trans>Work with us</Trans>
                     </a>
                   </div>

@@ -65,9 +65,7 @@ msgstr "Kui tegemist on kiireloomulise teemaga siis palun helistada"
 msgid "Let's engineer impressive digital products together."
 msgstr "Arendame koos vingeid tooteid."
 
-#: pages/open-source.js:58
-#: pages/open-source.js:79
-#: pages/open-source.js:99
+#: pages/open-source.js:58 pages/open-source.js:79 pages/open-source.js:99
 #: pages/open-source.js:117
 msgid "Like to help?"
 msgstr "Soovid aidata?"
@@ -150,4 +148,4 @@ msgstr "Mida me teeme"
 
 #: pages/index.js:35
 msgid "Work with us"
-msgstr "Telli tööd"
+msgstr "Võta ühendust"
