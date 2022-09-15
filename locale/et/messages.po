@@ -1,144 +1,154 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-09-08 23:30+0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
-"Language: et\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-08 23:30+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: pages/open-source.js:112
 msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
-msgstr ""
+msgstr "Django pakett PDF’ide genereerimiseks URL’idest, HTML’ist või Markdown failidest."
 
 #: pages/open-source.js:53
 msgid "A modern and responsive react timeline component."
-msgstr ""
+msgstr "Kaasaegne ja mobiilitoega reacti ajajoone komponent."
 
-#: pages/index.js:84
+#: pages/index.js:90
 msgid "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
-msgstr ""
+msgstr "Lahendus, et efektiivselt manageerida ja analüüsida oma mobiilset tööjõudu läbi GPS jälgimise ja geoandmete analüüsi. Kasutades modernset React.js kasutajaliidest ja React Native’ite mobiiliappide loomiseks iOS ja Androididele."
 
-#: pages/contact.js:33
+#: pages/contact.js:38
 msgid "And we would love to know more about your project!"
-msgstr ""
+msgstr "Ja me hea meelega kuulaksime teie projektist!"
 
-#: pages/contact.js:24
+#: pages/contact.js:29
 msgid "Contact us"
-msgstr ""
+msgstr "Võta ühendust"
 
 #: pages/index.js:26
 msgid "Creating applications that matter"
-msgstr ""
+msgstr "Loome rakendusi millel on väärtus"
 
 #: pages/open-source.js:71
 msgid "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
-msgstr ""
+msgstr "Django REST Framework SSO on laiendus Django REST Framework’ile mis võimaldab pakkuda Single sign-on’i mikroteenustele orienteeritud keskkonnas kasutades JWT standardit."
 
-#: pages/contact.js:81
-msgid "E-post"
-msgstr ""
+#: pages/contact.js:110
+msgid "E-mail"
+msgstr "E-post"
 
 #: pages/open-source.js:94
 msgid "Extention for Django Rest Framework to enable simple sideloading."
-msgstr ""
+msgstr "Django REST Framework laiendus mis võimaldab lihtsat objektide sideloadingut."
 
-#: pages/index.js:57
+#: pages/index.js:63
 msgid "GPS Fleet Tracking Software and Solutions"
-msgstr ""
+msgstr "GPS autopargi jälgimise lahendus ja tarkvara"
 
 #: pages/open-source.js:24
 msgid "Giving back"
-msgstr ""
+msgstr "Anname tagasi"
 
-#: pages/contact.js:123
+#: pages/contact.js:58
+msgid "If the matter is urgent then please call"
+msgstr "Kui tegemist on kiireloomulise teemaga siis palun helistada"
+
+#: pages/contact.js:159
 msgid "Let's engineer impressive digital products together."
-msgstr ""
+msgstr "Arendame koos vingeid tooteid."
 
-#: pages/open-source.js:58
-#: pages/open-source.js:99
-#: pages/open-source.js:117
+#: pages/open-source.js:58 pages/open-source.js:99 pages/open-source.js:117
 msgid "Like to help?"
-msgstr ""
+msgstr "Soovid aidata?"
 
 #: pages/open-source.js:79
 msgid "Like to help? Fork on Github!"
 msgstr ""
 
-#: pages/index.js:80
+#: pages/contact.js:51
+msgid "Message has been sent"
+msgstr "Sõnum on saadetud"
+
+#: pages/index.js:86
 msgid "Mobile fleet management"
-msgstr ""
+msgstr "Mobiilse meeskonna haldus"
 
-#: pages/index.js:61
+#: pages/index.js:67
 msgid "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
-msgstr ""
+msgstr "Monitoori ja halda kõike mis seondub sinu firma autopargiga mugavalt nii arvutiekraanil kui mobiilis!"
 
-#: pages/contact.js:77
-msgid "Nimi"
-msgstr ""
+#: pages/contact.js:101
+msgid "Name"
+msgstr "Nimi"
 
 #: components/navigation.js:75
 msgid "Open Source"
-msgstr ""
+msgstr "Avatud lähtekood"
 
-#: pages/index.js:124
+#: pages/index.js:136
 msgid "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
-msgstr ""
+msgstr "Parcelfellows pakub paki saatmise teenust väga heade hindadega. Pakipoint pakub võimekat tellimuste täitmise ja laohalduse teenust e-poodidele liidestudes platvormidega nagu Shopify, Magento, WooCommerce, PrestaShop või rätseplahendustega."
 
-#: pages/contact.js:110
+#: pages/contact.js:119
+msgid "Phone"
+msgstr "Telefon"
+
+#: pages/contact.js:145
 msgid "Send message"
-msgstr ""
+msgstr "Saada sõnum"
 
-#: pages/index.js:120
+#: pages/index.js:132
 msgid "Shipping & Order fulfillment service"
-msgstr ""
+msgstr "Paki saatmise ja tellimuste täitmise teenus"
 
-#: pages/contact.js:95
-msgid "Sinu sõnum"
-msgstr ""
+#: pages/contact.js:130
+msgid "Tell us about your project"
+msgstr "Räägi meile oma projektist"
 
-#: pages/contact.js:85
-msgid "Telefon"
-msgstr ""
-
-#: pages/index.js:144
+#: pages/index.js:156
 msgid "Ticket sales and event management"
-msgstr ""
+msgstr "Piletimüük ja ürituse korraldus"
 
 #: pages/index.js:29
 msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
-msgstr ""
+msgstr "Pakume täisteenus digilahendusi. Oleme Pythoni, API’de ja React.js experdid."
 
-#: pages/contact.js:27
+#: pages/contact.js:32
 msgid "We build high performance, maintainable and business critical web applications and business automation for companies around the world."
-msgstr ""
+msgstr "Loome "
 
 #: pages/open-source.js:27
 msgid "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
-msgstr ""
+msgstr "Ehitame oma tooteid tööriistadele ja teekidele millesse on panustanud tuhanded entusiastid üle maailma. Soovime ka oma panuse tagasi anda jagades osasid tööriistu mida oleme loonud ja täiendanud, et pakkuda oma klientidele kõige paremaid lahendusi."
 
 #: pages/open-source.js:135
 msgid "We have the team, the knowledge and the experience to build them."
-msgstr ""
+msgstr "Meil on meeskond, oskused ja kogemus, et neid arendada."
 
-#: pages/index.js:148
+#: pages/index.js:160
 msgid "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
-msgstr ""
+msgstr "Pakume võimalusterohket piletimüügi süsteemi mis on võimalik paigutada ka oma kodulehele. Luues interaktiivse ostukorvi mis läheb kokku Sinu veebilehe disainiga ja kasutab usaldusväärset back-officet. Maksed tulevad otse teie kontodele läbi PayPal, EveryPay, Maksekeskuse (või teiste lahenduste)."
+
+#: pages/contact.js:56
+msgid "We will get back to you within a few days."
+msgstr "Võtame teiega ühendust paari päeva jooksul."
 
 #: pages/open-source.js:132
 msgid "We would love to hear your ideas."
-msgstr ""
+msgstr "Tahaksime kuulda Sinu ideedest."
 
 #: components/navigation.js:68
 msgid "What we do"
-msgstr ""
+msgstr "Mida me teeme"
 
 #: pages/index.js:35
 msgid "Work with us"
-msgstr ""
+msgstr "Telli tööd"
