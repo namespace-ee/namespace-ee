@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { parseCookies } from 'nookies';
 import { get } from 'lodash';
 import { i18n } from '@lingui/core';
@@ -9,6 +10,7 @@ import { initGA, logPageView } from '../utils/ga';
 import '../styles/index.scss';
 
 const App = ({ Component, pageProps }) => {
+  const router = useRouter();
   const cookies = parseCookies();
   const language = get(cookies, 'language', 'et');
 
