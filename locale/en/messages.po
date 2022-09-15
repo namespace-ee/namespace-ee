@@ -6,3 +6,139 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: pages/open-source.js:112
+msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
+msgstr "A Django wrapper to generate PDF from URL, HTML or Markdown files."
+
+#: pages/open-source.js:53
+msgid "A modern and responsive react timeline component."
+msgstr "A modern and responsive react timeline component."
+
+#: pages/index.js:84
+msgid "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
+msgstr "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
+
+#: pages/contact.js:33
+msgid "And we would love to know more about your project!"
+msgstr "And we would love to know more about your project!"
+
+#: pages/contact.js:24
+msgid "Contact us"
+msgstr "Contact us"
+
+#: pages/index.js:26
+msgid "Creating applications that matter"
+msgstr "Creating applications that matter"
+
+#: pages/open-source.js:71
+msgid "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
+msgstr "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
+
+#: pages/contact.js:81
+msgid "E-post"
+msgstr "E-post"
+
+#: pages/open-source.js:94
+msgid "Extention for Django Rest Framework to enable simple sideloading."
+msgstr "Extention for Django Rest Framework to enable simple sideloading."
+
+#: pages/index.js:57
+msgid "GPS Fleet Tracking Software and Solutions"
+msgstr "GPS Fleet Tracking Software and Solutions"
+
+#: pages/open-source.js:24
+msgid "Giving back"
+msgstr "Giving back"
+
+#: pages/contact.js:123
+msgid "Let's engineer impressive digital products together."
+msgstr "Let's engineer impressive digital products together."
+
+#: pages/open-source.js:58
+#: pages/open-source.js:99
+#: pages/open-source.js:117
+msgid "Like to help?"
+msgstr "Like to help?"
+
+#: pages/open-source.js:79
+msgid "Like to help? Fork on Github!"
+msgstr "Like to help? Fork on Github!"
+
+#: pages/index.js:80
+msgid "Mobile fleet management"
+msgstr "Mobile fleet management"
+
+#: pages/index.js:61
+msgid "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
+msgstr "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
+
+#: pages/contact.js:77
+msgid "Nimi"
+msgstr "Nimi"
+
+#: components/navigation.js:75
+msgid "Open Source"
+msgstr "Open Source"
+
+#: pages/index.js:124
+msgid "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
+msgstr "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
+
+#: pages/contact.js:110
+msgid "Send message"
+msgstr "Send message"
+
+#: pages/index.js:120
+msgid "Shipping & Order fulfillment service"
+msgstr "Shipping & Order fulfillment service"
+
+#: pages/contact.js:95
+msgid "Sinu sõnum"
+msgstr "Sinu sõnum"
+
+#: pages/contact.js:85
+msgid "Telefon"
+msgstr "Telefon"
+
+#: pages/index.js:144
+msgid "Ticket sales and event management"
+msgstr "Ticket sales and event management"
+
+#: pages/index.js:29
+msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
+msgstr "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
+
+#: pages/contact.js:27
+msgid "We build high performance, maintainable and business critical web applications and business automation for companies around the world."
+msgstr "We build high performance, maintainable and business critical web applications and business automation for companies around the world."
+
+#: pages/open-source.js:27
+msgid "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
+msgstr "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
+
+#: pages/open-source.js:135
+msgid "We have the team, the knowledge and the experience to build them."
+msgstr "We have the team, the knowledge and the experience to build them."
+
+#: pages/index.js:148
+msgid "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
+msgstr "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
+
+#: pages/open-source.js:132
+msgid "We would love to hear your ideas."
+msgstr "We would love to hear your ideas."
+
+#: components/navigation.js:68
+msgid "What we do"
+msgstr "What we do"
+
+#: pages/index.js:35
+msgid "Work with us"
+msgstr "Work with us"
