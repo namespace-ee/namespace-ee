@@ -65,13 +65,12 @@ msgstr "Kui tegemist on kiireloomulise teemaga siis palun helistada"
 msgid "Let's engineer impressive digital products together."
 msgstr "Arendame koos vingeid tooteid."
 
-#: pages/open-source.js:58 pages/open-source.js:99 pages/open-source.js:117
+#: pages/open-source.js:58
+#: pages/open-source.js:79
+#: pages/open-source.js:99
+#: pages/open-source.js:117
 msgid "Like to help?"
 msgstr "Soovid aidata?"
-
-#: pages/open-source.js:79
-msgid "Like to help? Fork on Github!"
-msgstr ""
 
 #: pages/contact.js:51
 msgid "Message has been sent"

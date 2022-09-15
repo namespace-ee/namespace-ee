@@ -76,7 +76,7 @@ const OpenSource = () => (
                 </div>
                 <div className="actions">
                   <a href="https://github.com/namespace-ee/django-rest-framework-sso" className="help-link">
-                    <Trans>Like to help? Fork on Github!</Trans>
+                    <Trans>Like to help?</Trans>
                   </a>
                   <br />
                   <Star owner="namespace-ee" repo="django-rest-framework-sso" />
