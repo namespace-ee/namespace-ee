@@ -2,10 +2,13 @@ import formData from 'form-data';
 import Mailgun from 'mailgun.js';
 import { withSentry } from '@sentry/nextjs';
 
+const MAILGUN_API_KEY = process.env.MAILGUN_API_KEY;
+
 const mailgun = new Mailgun(formData);
 const mg = mailgun.client({
   username: 'api',
-  key: process.env.MAILGUN_API_KEY,
+  key: MAILGUN_API_KEY,
+  url: 'https://api.eu.mailgun.net',
 });
 
 const handler = async (req, res) => {
@@ -26,7 +29,7 @@ const handler = async (req, res) => {
         res.status(201).json({ message: 'success' });
       })
       .catch(err => {
-        console.log(err);
+        console.log(err, 'ERROR');
         res.status(500).json({ message: 'error' });
       });
   } else {

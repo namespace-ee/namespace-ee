@@ -44,12 +44,14 @@ const Contact = () => {
       </div>
       <div className="container contact-form-container">
         <div className="row">
-          <div className="col-md-8 offset-md-2 content">
+          <div className="col-md-8 offset-md-2 content" style={{ minHeight: 400 }}>
             {sent ? (
               <>
-                <h3 className="text-center">
+                <h2 className="text-center">
                   <Trans>Message has been sent</Trans>
-                </h3>
+                </h2>
+                <br />
+                <br />
                 <p className="text-center">
                   <Trans>We will get back to you within a few days.</Trans>
                   <br />

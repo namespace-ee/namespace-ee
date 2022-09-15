@@ -10,4 +10,17 @@
     padding: 40px 80px;
     background-color: #fff;
   }
+
+  h2 {
+    font-size: 25px;
+    color: #6250e5;
+    letter-spacing: 0;
+    line-height: 34px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 45px;
+    }
+  }
 }
