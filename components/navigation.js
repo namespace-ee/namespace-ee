@@ -78,7 +78,11 @@ const Navigation = () => {
               </li>
 
               <li className="nav-item right-item minimal">
-                <div class="dropdown" onMouseOver={() => setIsHovering(true)} onMouseOut={() => setIsHovering(false)}>
+                <div
+                  className="dropdown"
+                  onMouseOver={() => setIsHovering(true)}
+                  onMouseOut={() => setIsHovering(false)}
+                >
                   <a href="#" className="nav-link">
                     {i18n.locale === 'et' ? (
                       <ETFlag style={{ marginTop: -1, marginRight: 8 }} />
@@ -92,11 +96,11 @@ const Navigation = () => {
                     aria-labelledby="dropdownMenuLink"
                     style={{ minWidth: 0 }}
                   >
-                    <a class="dropdown-item" href="#" onClick={() => setLanguage('et')}>
+                    <a className="dropdown-item" href="#" onClick={() => setLanguage('et')}>
                       <ETFlag style={{ marginTop: -1, marginRight: 8 }} />
                       ET
                     </a>
-                    <a class="dropdown-item" href="#" onClick={() => setLanguage('en')}>
+                    <a className="dropdown-item" href="#" onClick={() => setLanguage('en')}>
                       <ENFlag style={{ marginTop: -1, marginRight: 8 }} />
                       EN
                     </a>

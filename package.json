@@ -16,6 +16,7 @@
     "@lingui/react": "^3.14.0",
     "@sentry/nextjs": "^7.12.1",
     "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.27.2",
     "bootstrap": "^4.4.1",
     "formik": "^2.2.9",
     "lodash": "^4.17.21",
