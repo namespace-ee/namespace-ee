@@ -115,8 +115,8 @@ msgid "Ticket sales and event management"
 msgstr "Piletimüük ja ürituse korraldus"
 
 #: pages/index.js:29
-msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
-msgstr "Pakume täisteenus digilahendusi. Oleme Pythoni, API’de ja React.js experdid."
+msgid "We are a full service digital agency based in Tallinn. We are Python, Django, API and React.js experts."
+msgstr "Pakume täisteenus digilahendusi. Oleme Pythoni, API’de ja React.js eksperdid."
 
 #: pages/contact.js:32
 msgid "We build high performance, maintainable and business critical web applications and business automation for companies around the world."

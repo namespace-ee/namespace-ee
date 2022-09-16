@@ -58,8 +58,22 @@ const OpenSource = () => (
                     <Trans>Like to help?</Trans>
                   </a>
                   <br />
-                  <Star owner="namespace-ee" repo="react-calendar-timeline" />
-                  <Fork owner="namespace-ee" repo="react-calendar-timeline" />
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=react-calendar-timeline&type=star&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=react-calendar-timeline&type=fork&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -79,8 +93,22 @@ const OpenSource = () => (
                     <Trans>Like to help?</Trans>
                   </a>
                   <br />
-                  <Star owner="namespace-ee" repo="django-rest-framework-sso" />
-                  <Fork owner="namespace-ee" repo="django-rest-framework-sso" />
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-rest-framework-sso&type=star&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-rest-framework-sso&type=fork&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -99,26 +127,22 @@ const OpenSource = () => (
                     <Trans>Like to help?</Trans>
                   </a>
                   <br />
-                  <Star owner="namespace-ee" repo="django-rest-framework-sideloading" />
-                  <Fork owner="namespace-ee" repo="django-rest-framework-sideloading" />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="open-source-item">
-                <div className="inner">
-                  <h5>django-electron-pdf</h5>
-                  <p>
-                    <Trans>A Django wrapper to generate PDF from URL, HTML or Markdown files.</Trans>
-                  </p>
-                </div>
-                <div className="actions">
-                  <a href="https://github.com/namespace-ee/django-electron-pdf" className="help-link">
-                    <Trans>Like to help?</Trans>
-                  </a>
-                  <br />
-                  <Star owner="namespace-ee" repo="django-electron-pdf" />
-                  <Fork owner="namespace-ee" repo="django-electron-pdf" />
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-rest-framework-sideloading&type=star&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-rest-framework-sideloading&type=fork&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
                 </div>
               </div>
             </div>
