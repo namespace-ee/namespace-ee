@@ -14,8 +14,8 @@ msgstr ""
 "X-Generator: Poedit 3.1.1\n"
 
 #: pages/open-source.js:112
-msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
-msgstr "Django pakett PDF’ide genereerimiseks URL’idest, HTML’ist või Markdown failidest."
+#~ msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
+#~ msgstr "Django pakett PDF’ide genereerimiseks URL’idest, HTML’ist või Markdown failidest."
 
 #: pages/open-source.js:53
 msgid "A modern and responsive react timeline component."
@@ -37,7 +37,7 @@ msgstr "Võta ühendust"
 msgid "Creating applications that matter"
 msgstr "Loome rakendusi millel on väärtus"
 
-#: pages/open-source.js:71
+#: pages/open-source.js:85
 msgid "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
 msgstr "Django REST Framework SSO on laiendus Django REST Framework’ile mis võimaldab pakkuda Single sign-on’i mikroteenustele orienteeritud keskkonnas kasutades JWT standardit."
 
@@ -45,7 +45,7 @@ msgstr "Django REST Framework SSO on laiendus Django REST Framework’ile mis v�
 msgid "E-mail"
 msgstr "E-post"
 
-#: pages/open-source.js:94
+#: pages/open-source.js:122
 msgid "Extention for Django Rest Framework to enable simple sideloading."
 msgstr "Django REST Framework laiendus mis võimaldab lihtsat objektide sideloadingut."
 
@@ -65,8 +65,9 @@ msgstr "Kui tegemist on kiireloomulise teemaga siis palun helistada"
 msgid "Let's engineer impressive digital products together."
 msgstr "Arendame koos vingeid tooteid."
 
-#: pages/open-source.js:58 pages/open-source.js:79 pages/open-source.js:99
-#: pages/open-source.js:117
+#: pages/open-source.js:58
+#: pages/open-source.js:93
+#: pages/open-source.js:127
 msgid "Like to help?"
 msgstr "Soovid aidata?"
 
@@ -115,7 +116,7 @@ msgid "Ticket sales and event management"
 msgstr "Piletimüük ja ürituse korraldus"
 
 #: pages/index.js:29
-msgid "We are a full service digital agency based in Tallinn. We are Python, Django, API and React.js experts."
+msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
 msgstr "Pakume täisteenus digilahendusi. Oleme Pythoni, API’de ja React.js eksperdid."
 
 #: pages/contact.js:32
@@ -126,7 +127,7 @@ msgstr "Loome "
 msgid "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
 msgstr "Ehitame oma tooteid tööriistadele ja teekidele millesse on panustanud tuhanded entusiastid üle maailma. Soovime ka oma panuse tagasi anda jagades osasid tööriistu mida oleme loonud ja täiendanud, et pakkuda oma klientidele kõige paremaid lahendusi."
 
-#: pages/open-source.js:135
+#: pages/open-source.js:159
 msgid "We have the team, the knowledge and the experience to build them."
 msgstr "Meil on meeskond, oskused ja kogemus, et neid arendada."
 
@@ -138,7 +139,7 @@ msgstr "Pakume võimalusterohket piletimüügi süsteemi mis on võimalik paigut
 msgid "We will get back to you within a few days."
 msgstr "Võtame teiega ühendust paari päeva jooksul."
 
-#: pages/open-source.js:132
+#: pages/open-source.js:156
 msgid "We would love to hear your ideas."
 msgstr "Tahaksime kuulda Sinu ideedest."
 

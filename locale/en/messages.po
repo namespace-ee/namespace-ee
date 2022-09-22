@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: pages/open-source.js:112
-msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
-msgstr "A Django wrapper to generate PDF from URL, HTML or Markdown files."
+#~ msgid "A Django wrapper to generate PDF from URL, HTML or Markdown files."
+#~ msgstr "A Django wrapper to generate PDF from URL, HTML or Markdown files."
 
 #: pages/open-source.js:53
 msgid "A modern and responsive react timeline component."
@@ -37,7 +37,7 @@ msgstr "Contact us"
 msgid "Creating applications that matter"
 msgstr "Creating applications that matter"
 
-#: pages/open-source.js:71
+#: pages/open-source.js:85
 msgid "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
 msgstr "Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in a microservice-oriented environment using the JWT standard."
 
@@ -49,7 +49,7 @@ msgstr "E-mail"
 #~ msgid "E-post"
 #~ msgstr "E-post"
 
-#: pages/open-source.js:94
+#: pages/open-source.js:122
 msgid "Extention for Django Rest Framework to enable simple sideloading."
 msgstr "Extention for Django Rest Framework to enable simple sideloading."
 
@@ -70,9 +70,8 @@ msgid "Let's engineer impressive digital products together."
 msgstr "Let's engineer impressive digital products together."
 
 #: pages/open-source.js:58
-#: pages/open-source.js:79
-#: pages/open-source.js:99
-#: pages/open-source.js:117
+#: pages/open-source.js:93
+#: pages/open-source.js:127
 msgid "Like to help?"
 msgstr "Like to help?"
 
@@ -144,7 +143,7 @@ msgstr "We build high performance, maintainable and business critical web applic
 msgid "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
 msgstr "We build upon tools and libraries that have received the love and work of several thousands of enthusiasts around the world. We want to contibute to those efforts, while also sharing some of the tools we have envisioned and built to help us deliver great apps for our customers."
 
-#: pages/open-source.js:135
+#: pages/open-source.js:159
 msgid "We have the team, the knowledge and the experience to build them."
 msgstr "We have the team, the knowledge and the experience to build them."
 
@@ -156,7 +155,7 @@ msgstr "We offer an advanced ticket sales system that is also embeddable to your
 msgid "We will get back to you within a few days."
 msgstr "We will get back to you within a few days."
 
-#: pages/open-source.js:132
+#: pages/open-source.js:156
 msgid "We would love to hear your ideas."
 msgstr "We would love to hear your ideas."
 
