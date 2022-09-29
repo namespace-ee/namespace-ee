@@ -108,9 +108,11 @@ const Navigation = () => {
                 </div>
               </li>
               <li className="nav-item right-item">
-                <a href="/contact" className="nav-link fancy-link">
-                  <span className="inner">Contact us</span>
-                </a>
+                <Link href="/contact">
+                  <a className="nav-link fancy-link">
+                    <span className="inner">Contact us</span>
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
