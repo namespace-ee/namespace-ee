@@ -12,6 +12,7 @@
     "add-locale": "lingui add-locale"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.0.9",
     "@lingui/loader": "^3.14.0",
     "@lingui/macro": "^3.14.0",
     "@lingui/react": "^3.14.0",

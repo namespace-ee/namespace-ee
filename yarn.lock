@@ -1079,6 +1079,26 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
+"@calcom/embed-core@^1.1.0":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-core/-/embed-core-1.1.2.tgz#d2145ab03f5d5738646e78734102f6e6308571dd"
+  integrity sha512-zf0tj0fUZzkWAu/f3Ftacbyg+tGhyRIfm1BvKa7I5CpjXO5Skg1Qtga3DrLhzzmsP7uT6NKTJ4BcrwoHIADOoA==
+
+"@calcom/embed-react@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-react/-/embed-react-1.0.9.tgz#84e56ba70d48633f90565a6320dd2cb33de71f84"
+  integrity sha512-ByqZRcGWYNv6e0pSktiJFzWf1z/xUD+7Gs605JubqTYsjvVseXFFDJXjJzr5QrMdEKz1seFMPwKg2AgMzIPPFg==
+  dependencies:
+    "@calcom/embed-core" "^1.1.0"
+    "@calcom/embed-snippet" "^1.0.1"
+
+"@calcom/embed-snippet@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@calcom/embed-snippet/-/embed-snippet-1.0.4.tgz#732dc4c51091afe31cc726317baeb9379856cea0"
+  integrity sha512-KAYLIqOarPli2YrpUEnk29gzsUO1kYaz5kdIrMuMaHv5AHT8M3oOKzhnktrVudrYJ4VSiamEUrHYw/vko0wtKg==
+  dependencies:
+    "@calcom/embed-core" "^1.1.0"
+
 "@corex/deepmerge@^4.0.29":
   version "4.0.29"
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.29.tgz#af9debf07d7f6b0d2a9d04a266abf2c1418ed2f6"
@@ -4170,7 +4190,7 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-ga@^3.3.1:
+react-ga@3:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.1.tgz#d8e1f4e05ec55ed6ff944dcb14b99011dfaf9504"
   integrity sha512-4Vc0W5EvXAXUN/wWyxvsAKDLLgtJ3oLmhYYssx+YzphJpejtOst6cbIHCIyF50Fdxuf5DDKqRYny24yJ2y7GFQ==

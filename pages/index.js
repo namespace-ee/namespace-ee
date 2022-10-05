@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { getCalApi } from '@calcom/embed-react';
 import { Trans } from '@lingui/macro';
 
 import Head from '../components/head';
@@ -8,6 +9,13 @@ import Navidation from '../components/navigation';
 import Particles from '../components/particles';
 
 class Index extends React.Component {
+  componentDidMount() {
+    (async function() {
+      const cal = await getCalApi();
+      cal('ui', { theme: 'dark', styles: { branding: { brandColor: '#20222e' } } });
+    })();
+  }
+
   render() {
     return (
       <div id="index">
@@ -31,8 +39,8 @@ class Index extends React.Component {
                     </Trans>
                   </h2>
                   <div className="cta">
-                    <a href="/contact" className="btn btn-lg btn-success btn-rounded">
-                      <Trans>Work with us</Trans>
+                    <a href="#" className="btn btn-lg btn-success btn-rounded" data-cal-link="namespace/30min">
+                      <Trans>Book a meeting</Trans>
                     </a>
                   </div>
                 </div>
