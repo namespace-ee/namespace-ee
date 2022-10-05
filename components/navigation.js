@@ -110,7 +110,9 @@ const Navigation = () => {
               <li className="nav-item right-item">
                 <Link href="/contact">
                   <a className="nav-link fancy-link">
-                    <span className="inner">Contact us</span>
+                    <span className="inner">
+                      <Trans>Contact us</Trans>
+                    </span>
                   </a>
                 </Link>
               </li>

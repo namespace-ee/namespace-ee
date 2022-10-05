@@ -33,6 +33,7 @@ msgstr "And we would love to know more about your project!"
 msgid "Book a meeting"
 msgstr "Book a meeting"
 
+#: components/navigation.js:114
 #: pages/contact.js:29
 msgid "Contact us"
 msgstr "Contact us"

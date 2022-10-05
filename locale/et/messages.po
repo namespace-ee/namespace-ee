@@ -33,6 +33,7 @@ msgstr "Ja me hea meelega kuulaksime teie projektist!"
 msgid "Book a meeting"
 msgstr "Broneeri koosolek"
 
+#: components/navigation.js:114
 #: pages/contact.js:29
 msgid "Contact us"
 msgstr "Võta ühendust"
