@@ -21,7 +21,7 @@ msgstr ""
 msgid "A modern and responsive react timeline component."
 msgstr "Kaasaegne ja mobiilitoega reacti ajajoone komponent."
 
-#: pages/index.js:90
+#: pages/index.js:98
 msgid "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
 msgstr "Lahendus, et efektiivselt manageerida ja analüüsida oma mobiilset tööjõudu läbi GPS jälgimise ja geoandmete analüüsi. Kasutades modernset React.js kasutajaliidest ja React Native’ite mobiiliappide loomiseks iOS ja Androididele."
 
@@ -29,11 +29,15 @@ msgstr "Lahendus, et efektiivselt manageerida ja analüüsida oma mobiilset tö�
 msgid "And we would love to know more about your project!"
 msgstr "Ja me hea meelega kuulaksime teie projektist!"
 
+#: pages/index.js:43
+msgid "Book a meeting"
+msgstr "Broneeri koosolek"
+
 #: pages/contact.js:29
 msgid "Contact us"
 msgstr "Võta ühendust"
 
-#: pages/index.js:26
+#: pages/index.js:34
 msgid "Creating applications that matter"
 msgstr "Loome rakendusi millel on väärtus"
 
@@ -49,7 +53,7 @@ msgstr "E-post"
 msgid "Extention for Django Rest Framework to enable simple sideloading."
 msgstr "Django REST Framework laiendus mis võimaldab lihtsat objektide sideloadingut."
 
-#: pages/index.js:63
+#: pages/index.js:71
 msgid "GPS Fleet Tracking Software and Solutions"
 msgstr "GPS autopargi jälgimise lahendus ja tarkvara"
 
@@ -75,11 +79,11 @@ msgstr "Soovid aidata?"
 msgid "Message has been sent"
 msgstr "Sõnum on saadetud"
 
-#: pages/index.js:86
+#: pages/index.js:94
 msgid "Mobile fleet management"
 msgstr "Mobiilse meeskonna haldus"
 
-#: pages/index.js:67
+#: pages/index.js:75
 msgid "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
 msgstr "Monitoori ja halda kõike mis seondub sinu firma autopargiga mugavalt nii arvutiekraanil kui mobiilis!"
 
@@ -91,7 +95,7 @@ msgstr "Nimi"
 msgid "Open Source"
 msgstr "Avatud lähtekood"
 
-#: pages/index.js:136
+#: pages/index.js:144
 msgid "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
 msgstr "Parcelfellows pakub paki saatmise teenust väga heade hindadega. Pakipoint pakub võimekat tellimuste täitmise ja laohalduse teenust e-poodidele liidestudes platvormidega nagu Shopify, Magento, WooCommerce, PrestaShop või rätseplahendustega."
 
@@ -103,7 +107,7 @@ msgstr "Telefon"
 msgid "Send message"
 msgstr "Saada sõnum"
 
-#: pages/index.js:132
+#: pages/index.js:140
 msgid "Shipping & Order fulfillment service"
 msgstr "Paki saatmise ja tellimuste täitmise teenus"
 
@@ -111,11 +115,11 @@ msgstr "Paki saatmise ja tellimuste täitmise teenus"
 msgid "Tell us about your project"
 msgstr "Räägi meile oma projektist"
 
-#: pages/index.js:156
+#: pages/index.js:164
 msgid "Ticket sales and event management"
 msgstr "Piletimüük ja ürituse korraldus"
 
-#: pages/index.js:29
+#: pages/index.js:37
 msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
 msgstr "Pakume täisteenus digilahendusi. Oleme Pythoni, API’de ja React.js eksperdid."
 
@@ -131,7 +135,7 @@ msgstr "Ehitame oma tooteid tööriistadele ja teekidele millesse on panustanud 
 msgid "We have the team, the knowledge and the experience to build them."
 msgstr "Meil on meeskond, oskused ja kogemus, et neid arendada."
 
-#: pages/index.js:160
+#: pages/index.js:168
 msgid "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
 msgstr "Pakume võimalusterohket piletimüügi süsteemi mis on võimalik paigutada ka oma kodulehele. Luues interaktiivse ostukorvi mis läheb kokku Sinu veebilehe disainiga ja kasutab usaldusväärset back-officet. Maksed tulevad otse teie kontodele läbi PayPal, EveryPay, Maksekeskuse (või teiste lahenduste)."
 
@@ -148,5 +152,5 @@ msgid "What we do"
 msgstr "Mida me teeme"
 
 #: pages/index.js:35
-msgid "Work with us"
-msgstr "Võta ühendust"
+#~ msgid "Work with us"
+#~ msgstr "Võta ühendust"

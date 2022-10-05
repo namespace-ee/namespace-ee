@@ -21,7 +21,7 @@ msgstr ""
 msgid "A modern and responsive react timeline component."
 msgstr "A modern and responsive react timeline component."
 
-#: pages/index.js:90
+#: pages/index.js:98
 msgid "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
 msgstr "A solution to efficiently manage and analyze your mobile workforce through GPS tracking and geospatial data analysis. With a modern React.js interface and React Native mobile application for iOS and Android."
 
@@ -29,11 +29,15 @@ msgstr "A solution to efficiently manage and analyze your mobile workforce throu
 msgid "And we would love to know more about your project!"
 msgstr "And we would love to know more about your project!"
 
+#: pages/index.js:43
+msgid "Book a meeting"
+msgstr "Book a meeting"
+
 #: pages/contact.js:29
 msgid "Contact us"
 msgstr "Contact us"
 
-#: pages/index.js:26
+#: pages/index.js:34
 msgid "Creating applications that matter"
 msgstr "Creating applications that matter"
 
@@ -53,7 +57,7 @@ msgstr "E-mail"
 msgid "Extention for Django Rest Framework to enable simple sideloading."
 msgstr "Extention for Django Rest Framework to enable simple sideloading."
 
-#: pages/index.js:63
+#: pages/index.js:71
 msgid "GPS Fleet Tracking Software and Solutions"
 msgstr "GPS Fleet Tracking Software and Solutions"
 
@@ -79,11 +83,11 @@ msgstr "Like to help?"
 msgid "Message has been sent"
 msgstr "Message has been sent"
 
-#: pages/index.js:86
+#: pages/index.js:94
 msgid "Mobile fleet management"
 msgstr "Mobile fleet management"
 
-#: pages/index.js:67
+#: pages/index.js:75
 msgid "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
 msgstr "Monitor and manage everything related to your company's vehicles conveniently on a computer screen or your cell phone!"
 
@@ -99,7 +103,7 @@ msgstr "Name"
 msgid "Open Source"
 msgstr "Open Source"
 
-#: pages/index.js:136
+#: pages/index.js:144
 msgid "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
 msgstr "Parcelfellows offers a public parcel shipping service at very competetive prices. Pakipoint offers an extensive order fulfillment & warehousing service for online merchants with support for platforms such as Shopify, Magento, WooCommerce, Prestashop and custom solutions."
 
@@ -111,7 +115,7 @@ msgstr "Phone"
 msgid "Send message"
 msgstr "Send message"
 
-#: pages/index.js:132
+#: pages/index.js:140
 msgid "Shipping & Order fulfillment service"
 msgstr "Shipping & Order fulfillment service"
 
@@ -127,11 +131,11 @@ msgstr "Shipping & Order fulfillment service"
 msgid "Tell us about your project"
 msgstr "Tell us about your project"
 
-#: pages/index.js:156
+#: pages/index.js:164
 msgid "Ticket sales and event management"
 msgstr "Ticket sales and event management"
 
-#: pages/index.js:29
+#: pages/index.js:37
 msgid "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
 msgstr "We are a full service digital agency based in Tallinn. We are Python, API and React.js experts."
 
@@ -147,7 +151,7 @@ msgstr "We build upon tools and libraries that have received the love and work o
 msgid "We have the team, the knowledge and the experience to build them."
 msgstr "We have the team, the knowledge and the experience to build them."
 
-#: pages/index.js:160
+#: pages/index.js:168
 msgid "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
 msgstr "We offer an advanced ticket sales system that is also embeddable to your own website. Create an interactive shopping cart that matches your site's design and build upon our reliable backend. Receive payments directly to your own account via PayPal, EveryPay, Maksekeskus (others on request)."
 
@@ -164,5 +168,5 @@ msgid "What we do"
 msgstr "What we do"
 
 #: pages/index.js:35
-msgid "Work with us"
-msgstr "Work with us"
+#~ msgid "Work with us"
+#~ msgstr "Work with us"
