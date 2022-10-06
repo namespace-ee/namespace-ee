@@ -40,7 +40,7 @@ class Index extends React.Component {
                   </h2>
                   <div className="cta">
                     <a href="#" className="btn btn-lg btn-success btn-rounded" data-cal-link="namespace/30min">
-                      <Trans>Book a meeting</Trans>
+                      <Trans>Contact us</Trans>
                     </a>
                   </div>
                 </div>
