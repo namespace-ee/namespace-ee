@@ -1,29 +1,14 @@
-# Development
-
-```
-yarn install
-yarn dev
-```
-
-# Building
-
-```
-yarn build
-```
-
-# Content
-
 ## Homepage
 
-We offer _software development_ for starting and growing businesses.
+We're a team of _experienced software developers_. We offer _software development_ for starting and growing your business with _quick and flexible_ agile software development methods.
 
 ### Technology
 
-We specialize in _Python_, _Django_ back-end and _React.js_ front-end web solutions with _React Native_ for mobile.
+We specialize in _Python_, _Django_ & _Django-rest-framework_ based back-end and _React & React Native_ front-end and mobile applications.
 
 ### Call to action
 
-- Book meeting -> Cal.com modal
+- Book a call -> Cal.com modal
 
 ### Experience
 
@@ -32,21 +17,31 @@ No matter what stage your application is currently at, we can offer a software d
 - 9 years
 - 75k+ SaaS users
 - 500 miljon realtime data points a week
-- 5 SaaS from 0 to revenue
+- 6 SaaS from 0 to revenue
 - 2 mobile apps with 25k+ downloads
 
-### Customers
+### Our work
 
-We’ve helped businesses design, build, and launch high performance web applications.
+We’ve helped many businesses design, build, and launch high performance web applications that last.
 
 - Showcases (animated / changing)
-  - Navirec
-  - GSMtasks
-  - Ticketing (our own product)
+  - SaaS software
+    - Navirec
+    - GSMtasks
+  - Interactive product configurator
+    - VOOL
+  - Digital signing solutions
+    - construction tools rental business
+  - Integrations
+    - plaintiff
+  - Ticket sales software
     - Weekend festival
     - Latitude59
-  - Parcelfellows
-  - Sorbum
+  - Warehouse automation for E-commerce
+    - Parcelfellows
+    - Pakipoint
+  - Back-office automation
+    - Sorbum
 
 ## What we do
 
@@ -56,65 +51,53 @@ What makes us different is that we have the deep and wide experience of developi
 
 We like to build a solid relationship with our clients. Understand their ideas and goals from the start and deliver them with adding our expertice of building rock-solid web applications that live up to the expecations that the client envisioned from the start.
 
-The development process incorporates _Agile development_ methods:
+The development process incorporates quick and flexible _Agile development_ methods:
 
 Requirements -> Design -> Coding -> Testing -> Live
 
-You would be working together with a Software developer team lead from the start to execute every step of the process from start to finish. The process is visualised on a Kanban board that the client always has access to for providing feedback and keeping track of progress.
+You would be working together with a Senior software developer team lead from the start to execute every step of the software development cycle. Work process is visualised on a Kanban board that the client always has access to for providing feedback and keeping track of the project.
 
-We like documentation but nobody like writing it. So we autogenerate it. The API's we deliver are self documenting with [OpenAPI specification](https://www.openapis.org/) standard documentation and versioned with every change to keep compatibility easy.
+We love good documentation but nobody likes writing it. _So we autogenerate it_. The API's we deliver are self documenting with [OpenAPI specification](https://www.openapis.org/) standard documentation and versioned with every change to keep compatibility easy.
 
 ### Backend development
 
 #### Python
 
-#### Django
-
+- Django
 - REST API
   - Django REST Framework
   - OpenAPI spec
 - Integrations
+- Database
+  - PostgreSQL
 - Job queues
   - Celery
   - RabbitMQ
 - Realtime data processing
   - Spark
   - Kafka
-- Frontend development
-  - React.JS
-    - Hooks
-    - Redux
-  - Next.JS
-  - Vercel
-  - Lambda functions
-- Mobile app development
-  - React Native
-  - Fastlane automation
-  - Codepush
-- UX / UI Design
 
-  - Experience
-  - Partners
+## Frontend development
 
-- Showcases
+### TypeScript / JavaScript
 
-  - Navirec
-  - GSMtasks
-  - Parcelfellows
-  - Ticketing (our own product)
-    - Weekend festival
-    - Latitude59
-  - Sorbum
+- React.JS
+  - Hooks
+  - Redux
+- Next.JS
+- Vercel
+- Lambda functions
 
-- Process
+## Mobile app development
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+- React Native
+- Fastlane build automation
+- Codepush
+
+## Our process
+
+- Specify requirements & goals of the project
+- Estimate the project
 
 ## Open source
 
