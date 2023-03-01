@@ -1,6 +1,11 @@
 # Namespace.ee
 
-- [Homepage](https://github.com/)
+- [Homepage](https://github.com/namespace-ee/namespace-ee#homepage)
+- [Our work](https://github.com/namespace-ee/namespace-ee#our-work--projects--case-studies)
+  - [Our work details](https://github.com/namespace-ee/namespace-ee#our-work-details-page)
+- [What we do](https://github.com/namespace-ee/namespace-ee#what-we-do--services)
+- [Open source](https://github.com/namespace-ee/namespace-ee#open-source)
+- [Contact](https://github.com/namespace-ee/namespace-ee#contact)
 
 ## Homepage
 
