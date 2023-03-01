@@ -1,3 +1,7 @@
+# Namespace.ee
+
+- [Homepage](https://github.com/)
+
 ## Homepage
 
 We're a team of _experienced software developers_. We offer _software development_ for starting and growing your business with _quick and flexible_ agile software development methods.
@@ -20,7 +24,17 @@ No matter what stage your application is currently at, we can offer a software d
 - 6 SaaS from 0 to revenue
 - 2 mobile apps with 25k+ downloads
 
-### Our work
+### Clients
+
+- GSMvalve OÜ
+- Latitude59
+- MultiCharge OÜ (VOOL)
+- Weekend festival
+- Pakipoint
+- /construction tools rental business/
+- /plaintiff/
+
+## Our work / Projects / Case studies
 
 We’ve helped many businesses design, build, and launch high performance web applications that last.
 
@@ -31,9 +45,9 @@ We’ve helped many businesses design, build, and launch high performance web ap
   - Interactive product configurator
     - VOOL
   - Digital signing solutions
-    - construction tools rental business
+    - /construction tools rental business/
   - Integrations
-    - plaintiff
+    - /plaintiff/
   - Ticket sales software
     - Weekend festival
     - Latitude59
@@ -43,7 +57,20 @@ We’ve helped many businesses design, build, and launch high performance web ap
   - Back-office automation
     - Sorbum
 
-## What we do
+## Our work (details page)
+
+- Heading image
+  - Website link
+  - What we did (short)
+- Description of the project
+- Key features
+- Challenges & solutions
+- Screenshots
+- Technology used (like Django, React.js etc. with logos)
+- Testimonial
+- Contact us to build something similar
+
+## What we do / Services
 
 We are passionate about software engineering and the complete process that leads to creating the web applications we deliver.
 
@@ -58,6 +85,47 @@ Requirements -> Design -> Coding -> Testing -> Live
 You would be working together with a Senior software developer team lead from the start to execute every step of the software development cycle. Work process is visualised on a Kanban board that the client always has access to for providing feedback and keeping track of the project.
 
 We love good documentation but nobody likes writing it. _So we autogenerate it_. The API's we deliver are self documenting with [OpenAPI specification](https://www.openapis.org/) standard documentation and versioned with every change to keep compatibility easy.
+
+### Our process / Development roadmap
+
+1. Planning
+
+- Requirements gathering
+- Business needs analysis
+- Project planning
+
+2. Design
+
+- Architecture
+- API spec
+- Visual style
+- UI/UX design
+- Usable prototyping
+
+3. Development
+
+- Back-end developments
+- Front-end developments
+- Integrations
+
+4. Testing
+
+- Code reviews
+- Automated testing
+- Integration tests
+
+5. Deployment
+
+- Product rollout
+- Performance monitoring
+- Performance optimization
+- Training
+
+6. Support & maintenance
+
+- Software updates
+- Bug fixing
+- Customer support
 
 ### Backend development
 
@@ -77,9 +145,9 @@ We love good documentation but nobody likes writing it. _So we autogenerate it_.
   - Spark
   - Kafka
 
-## Frontend development
+### Frontend development
 
-### TypeScript / JavaScript
+#### TypeScript / JavaScript
 
 - React.JS
   - Hooks
@@ -88,16 +156,11 @@ We love good documentation but nobody likes writing it. _So we autogenerate it_.
 - Vercel
 - Lambda functions
 
-## Mobile app development
+### Mobile app development
 
 - React Native
 - Fastlane build automation
 - Codepush
-
-## Our process
-
-- Specify requirements & goals of the project
-- Estimate the project
 
 ## Open source
 
@@ -108,4 +171,5 @@ We love good documentation but nobody likes writing it. _So we autogenerate it_.
 ## Contact
 
 - Who we are
-- Contact form (email alternative)
+- Team photos
+- Contact form
