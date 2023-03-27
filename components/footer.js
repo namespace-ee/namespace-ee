@@ -24,7 +24,7 @@ const Footer = () => (
             <div className="contact-item">
               <h4>Location</h4>
               <p>
-                <a href="https://goo.gl/maps/ei5iRCRrK2NuThLu5" target="_blank" className="fancy-link">
+                <a href="https://goo.gl/maps/38EcfzmG14BySQZS9" target="_blank" className="fancy-link">
                   <span className="inner">Laeva 1</span>
                 </a>
               </p>
@@ -34,7 +34,7 @@ const Footer = () => (
 
             <div className="get-directions">
               <a
-                href="https://www.google.ee/maps/place/ON-hoone/@59.4401833,24.7276245,17z/data=!3m1!4b1!4m5!3m4!1s0x4692937debffa363:0x8b51c1f5eb6c921!8m2!3d59.4401833!4d24.7298185"
+                href="https://goo.gl/maps/38EcfzmG14BySQZS9"
                 className="btn grad-btn btn-primary"
                 target="_blank"
               >
