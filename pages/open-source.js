@@ -117,6 +117,38 @@ const OpenSource = () => (
             <div className="col-md-6">
               <div className="open-source-item">
                 <div className="inner">
+                  <h5>django-datadog-logger</h5>
+                  <p>
+                    <Trans>Django DataDog Logger integration package.</Trans>
+                  </p>
+                </div>
+                <div className="actions">
+                  <a href="https://github.com/namespace-ee/django-datadog-logger" className="help-link">
+                    <Trans>Like to help?</Trans>
+                  </a>
+                  <br />
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-datadog-logger&type=star&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
+                  <iframe
+                    src="https://ghbtns.com/github-btn.html?user=namespace-ee&repo=django-datadog-logger&type=fork&count=true"
+                    frameborder="0"
+                    scrolling="0"
+                    width="130"
+                    height="20"
+                    title="GitHub"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="open-source-item">
+                <div className="inner">
                   <h5>django-rest-framework-sideloading</h5>
                   <p>
                     <Trans>Extention for Django Rest Framework to enable simple sideloading.</Trans>
