@@ -48,7 +48,9 @@ const OpenSource = () => (
             <div className="col-md-6">
               <div className="open-source-item">
                 <div className="inner">
-                  <h5>react-calendar-timeline</h5>
+                  <h5>
+                    <a href="https://github.com/namespace-ee/react-calendar-timeline">react-calendar-timeline</a>
+                  </h5>
                   <p>
                     <Trans>A modern and responsive react timeline component.</Trans>
                   </p>
@@ -80,7 +82,9 @@ const OpenSource = () => (
             <div className="col-md-6">
               <div className="open-source-item">
                 <div className="inner">
-                  <h5>django-rest-framework-sso</h5>
+                  <h5>
+                    <a href="https://github.com/namespace-ee/django-rest-framework-sso">django-rest-framework-sso</a>
+                  </h5>
                   <p>
                     <Trans>
                       Django REST Framework SSO is an extension to Django REST Framework that enables Single sign-on in
@@ -117,7 +121,9 @@ const OpenSource = () => (
             <div className="col-md-6">
               <div className="open-source-item">
                 <div className="inner">
-                  <h5>django-datadog-logger</h5>
+                  <h5>
+                    <a href="https://github.com/namespace-ee/django-datadog-logger">django-datadog-logger</a>
+                  </h5>
                   <p>
                     <Trans>Django DataDog Logger integration package.</Trans>
                   </p>
@@ -149,7 +155,11 @@ const OpenSource = () => (
             <div className="col-md-6">
               <div className="open-source-item">
                 <div className="inner">
-                  <h5>django-rest-framework-sideloading</h5>
+                  <h5>
+                    <a href="https://github.com/namespace-ee/django-rest-framework-sideloading">
+                      django-rest-framework-sideloading
+                    </a>
+                  </h5>
                   <p>
                     <Trans>Extention for Django Rest Framework to enable simple sideloading.</Trans>
                   </p>
